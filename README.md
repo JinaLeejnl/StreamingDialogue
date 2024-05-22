@@ -1,6 +1,6 @@
 # StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses
 
-This repository is the official implementation of [StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses](https://arxiv.org/abs/2403.08312). 
+This repository is the official implementation of StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses. 
 
 ## Requirements
 
