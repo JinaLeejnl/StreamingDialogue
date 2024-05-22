@@ -1,6 +1,6 @@
 # StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses
 
-This repository is the official implementation of StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses. 
+This repository is the official implementation of StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses. The code is developed based on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 ## Requirements
 
@@ -24,7 +24,13 @@ cd src
 
 ### Supervised Learning
 
-Comment out the content between "### SMR&LMR dataset ###" and "### SMR&LMR end ###" in src\llmtuner\train\sft\workflow.py, and uncomment the content between "### Supervised learning dataset ###" and "### Supervised learning end ###".
+1. Modify the file `/src/llmtuner/train/sft/workflow.py`:
+   - Comment out lines 157-240.
+   - Uncomment lines 83-94.
+
+2. Modify the file `/model/llama/modeling_llama.py`:
+   - Comment out lines 1049-1052.
+   - Uncomment lines 1029-1032.
 
 ```train
 cd src
