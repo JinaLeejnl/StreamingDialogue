@@ -23,7 +23,6 @@ exceptiongroup==1.2.0
 fastapi==0.104.1
 ffmpy==0.3.1
 filelock==3.13.1
-flash-attn @ file:///home/ljn/flash_attn-2.4.2%2Bcu122torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl#sha256=560df8869000f20f44af8ff42721c3d08ccfe5624bdc3c00e056a783e2a54fb9
 fonttools==4.45.1
 frozenlist==1.4.0
 fsspec==2023.10.0
