@@ -25,13 +25,13 @@ from typing import TYPE_CHECKING, Any, Dict, List, Optional, Tuple
 
 import sentencepiece as spm
 
-from ...convert_slow_tokenizer import import_protobuf
-from ...tokenization_utils import AddedToken, PreTrainedTokenizer
-from ...utils import logging
+from transformers.convert_slow_tokenizer import import_protobuf
+from transformers.tokenization_utils import AddedToken, PreTrainedTokenizer
+from transformers.utils import logging
 
 
 if TYPE_CHECKING:
-    from ...tokenization_utils_base import TextInput
+    from transformers.tokenization_utils_base import TextInput
 
 logger = logging.get_logger(__name__)
 
